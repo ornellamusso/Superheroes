@@ -24,7 +24,6 @@ class RetrofitProvider {
                 .addConverterFactory(GsonCoverterFactory.create())
                 .build()
 
-            val SuperheroService = Unit
             return retrofit.create(SuperheroService::class.java.())
         }
 
