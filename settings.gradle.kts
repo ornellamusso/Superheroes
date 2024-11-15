@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Superheroes"
 include(":app")
-include(":app")
+

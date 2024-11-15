@@ -1,9 +1,8 @@
 package com.example.superheroes.data
 
-import android.media.Image
 import com.google.gson.annotations.SerializedName
 
-data class uperheroResponse (
+data class SuperheroResponse (
     @SerializedName ("response") val response: String,
     @SerializedName ("results-for") val resultsFor: String,
     @SerializedName ("results") val results: List<Superhero>
